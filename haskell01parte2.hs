@@ -54,5 +54,9 @@ countSpaces count = length (filter isSpace count)
 calcAreas :: [Float] -> [Float]
 calcAreas lis = map circleArea lis 
 
+
+isChar :: Char -> Char -> Bool
+isChar char1 char2 = char1 == char2
+
 charFound :: Char -> String -> Bool
-charFound c = 
+charFound c s = length (filter (isChar c) string) > 0
