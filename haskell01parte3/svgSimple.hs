@@ -18,7 +18,7 @@ svgAll :: String
 svgAll = 
   svgBegin 500 500 ++ 
   (svgCircle 200 50 50 "rgb(255, 255, 255, 1.0)") ++ 
-  (svgCircle 200 110 65 "rgb(255, 255, 255, 1.0)") ++ 
+  (svgCircle 200 110 65 "rgb(192, 192, 192, 1.0)") ++ 
   svgEnd
 
 main :: IO ()
